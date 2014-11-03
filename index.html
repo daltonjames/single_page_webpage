@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <!-- 
+        Dalton James, Dalton_James@student.uml.edu   
+        UMass Lowell Computer Science
+        Student in Jesse Heines GUI Programming I
+        
+        File: index.html
+        Created: 1 Nov 2014
+        
+        Displays an html page that appears to be different
+        pages based on nav links but does not refresh the page
+        Updated: 2 Nov 2014
+        -->
+
+        <title>Single Page HTML</title>
+
+        <!--links the css file-->
+        <link href="css/single_page_style.css" rel="stylesheet" type="text/css">
+
+        <!--links for the jquery-->
+        <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+        <script src="single_page.js"></script>
+
+    </head>
+    
+    <body>
+        
+        <!--navigation for the single page-->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <!--empty div for the dynamic content-->
+        <div id="content"></div>
+        
+        
+    </body>
+</html>
